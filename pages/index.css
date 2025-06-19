@@ -135,7 +135,6 @@
 
 .recipes__videos {
   display: flex;
-  align-content: row;
   justify-content: center;
   padding-top: 80px;
   gap: 40px;
