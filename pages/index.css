@@ -412,6 +412,15 @@
   }
 }
 
+.footer {
+  box-sizing: border-box;
+  background-color: #0a2850;
+  color: white;
+  padding: 60px 80px;
+  font-size: 16px;
+  line-height: 20px;
+}
+
 .footer__content {
   display: flex;
   justify-content: space-between;
