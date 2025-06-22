@@ -95,7 +95,11 @@
   text-decoration: none;
 }
 
-/* Write your styles here */
+.nav__link:hover {
+  opacity: 50%;
+  transition: opacity 0.5s;
+}
+
 .recipes {
   background-image: url("../images/background_recipes.svg");
   background-repeat: no-repeat;
@@ -243,6 +247,7 @@
 
 .form__button:hover {
   background-color: #3f96f3;
+  transition: background-color 0.5s;
 }
 
 .form__checkbox {
@@ -451,6 +456,11 @@
   font-size: 16px;
   line-height: 20px;
   text-decoration: none;
+}
+
+.footer__social-link:hover {
+  opacity: 70%;
+  transition: opacity 0.5s ease-in-out 0s;
 }
 
 .footer__copyright {
